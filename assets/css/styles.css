@@ -1,0 +1,60 @@
+.menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.menu li {
+  display: flex;
+  justify-content: center;
+}
+
+.blocos_artistas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.blocos_artistas .artista {
+  flex: 1;
+  border: 1px dashed red;
+  min-height: 400px;
+  background-repeat: repeat-x;
+}
+.blocos_artistas .a1 {
+  background-color: antiquewhite;
+  background-image: url("https://static.todamateria.com.br/upload/ma/ca/macacocalvoplatyrrhini-cke.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+.blocos_artistas .a2 {
+  background-color: aquamarine;
+  background-image: url("https://static.todamateria.com.br/upload/ma/ca/macacocalvoplatyrrhini-cke.jpg");
+  background-size: contain;
+  background-position: center;
+}
+.blocos_artistas .a3 {
+  background-image: url("https://static.todamateria.com.br/upload/ma/ca/macacocalvoplatyrrhini-cke.jpg");
+  background-color: cadetblue;
+  background-size: 100%;
+}
+
+@keyframes AnimacaoEscolhe {
+  0% {
+    width: 10%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.lista-produtos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.lista-produtos .produto {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 400px;
+  padding: 50px;
+}/*# sourceMappingURL=styles.css.map */

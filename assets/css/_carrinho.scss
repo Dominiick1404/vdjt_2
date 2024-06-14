@@ -1,0 +1,69 @@
+aside {
+    margin-left: 30px;
+}
+
+aside .box {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background: #eee;
+    color: #222;
+}
+
+aside .box header {
+    padding: 15px 20px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+
+aside .box .info {
+    padding: 20px;
+    font-size: 16px;
+}
+
+aside .box .info>div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+aside .box .info>div:last-child {
+    margin: 0;
+}
+
+aside .box .info button {
+    color: #28a745;
+    background: transparent;
+    border: 0;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+aside .box footer {
+    padding: 15px 20px;
+    background: #ddd;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside>button {
+    border: 0;
+    padding: 15px 0;
+    color: white;
+    background: #28a745;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+aside>button:hover {
+    background: #3bc55b;
+}
+
+aside .info .span {
+    color: #222;
+}

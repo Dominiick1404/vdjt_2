@@ -8,7 +8,7 @@
     flex: 1;
     border: 1px dashed red;
     min-height: 400px;
-    background-repeat: repeat-x ;
+    background-repeat: repeat-x;
   }
 
   .a1 {
@@ -32,10 +32,12 @@
 
   }
 }
+
 @keyframes AnimacaoEscolhe {
   0% {
     width: 10%;
   }
+
   100% {
     width: 100%;
   }

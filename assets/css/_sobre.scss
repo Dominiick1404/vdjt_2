@@ -57,7 +57,7 @@
   margin-bottom: 45px;
 }
 
-button {
+.about-text button {
   background: yellow;
   color: black;
   text-decoration: none;
@@ -66,12 +66,12 @@ button {
   padding: 13px 30px;
   border-radius: 30px;
   transition: .4s;
-  
 
 
 
-    &:hover {
-      font-size: 30px;
-    }
- 
+
+  &:hover {
+    font-size: 30px;
+  }
+
 }
